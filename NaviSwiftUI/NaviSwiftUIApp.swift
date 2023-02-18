@@ -11,7 +11,7 @@ import SwiftUI
 struct NaviSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+                PullRequestView(viewModel: PullRequestViewModel(requestFetcher: PullRequestFetcher()))
         }
     }
 }

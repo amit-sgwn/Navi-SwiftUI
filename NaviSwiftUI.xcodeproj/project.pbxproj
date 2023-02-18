@@ -14,6 +14,17 @@
 		B288CE94298239C600BFE884 /* NaviSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CE93298239C600BFE884 /* NaviSwiftUITests.swift */; };
 		B288CE9E298239C600BFE884 /* NaviSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CE9D298239C600BFE884 /* NaviSwiftUIUITests.swift */; };
 		B288CEA0298239C600BFE884 /* NaviSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CE9F298239C600BFE884 /* NaviSwiftUIUITestsLaunchTests.swift */; };
+		B288CEAE29823C8D00BFE884 /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEAD29823C8D00BFE884 /* Parsing.swift */; };
+		B288CEB229824E5B00BFE884 /* GithubApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEB129824E5B00BFE884 /* GithubApiError.swift */; };
+		B288CEB429824ED600BFE884 /* GithubApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEB329824ED600BFE884 /* GithubApiResponse.swift */; };
+		B288CEB629824FF200BFE884 /* PullRequestFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEB529824FF200BFE884 /* PullRequestFetcher.swift */; };
+		B288CEB92982548200BFE884 /* PullRequestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEB82982548200BFE884 /* PullRequestViewModel.swift */; };
+		B288CEBB2982623600BFE884 /* PullRequestViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEBA2982623600BFE884 /* PullRequestViewBuilder.swift */; };
+		B288CEBE2982634F00BFE884 /* PullRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEBD2982634F00BFE884 /* PullRequestView.swift */; };
+		B288CEC02982666C00BFE884 /* PullRequestRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CEBF2982666C00BFE884 /* PullRequestRow.swift */; };
+		B288CED5298270E400BFE884 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = B288CED4298270E400BFE884 /* URLImage */; };
+		B288CED7298270E400BFE884 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = B288CED6298270E400BFE884 /* URLImageStore */; };
+		B288CED92982817500BFE884 /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B288CED82982817500BFE884 /* DateUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,15 @@
 		B288CE99298239C600BFE884 /* NaviSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B288CE9D298239C600BFE884 /* NaviSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviSwiftUIUITests.swift; sourceTree = "<group>"; };
 		B288CE9F298239C600BFE884 /* NaviSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B288CEAD29823C8D00BFE884 /* Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
+		B288CEB129824E5B00BFE884 /* GithubApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiError.swift; sourceTree = "<group>"; };
+		B288CEB329824ED600BFE884 /* GithubApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubApiResponse.swift; sourceTree = "<group>"; };
+		B288CEB529824FF200BFE884 /* PullRequestFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestFetcher.swift; sourceTree = "<group>"; };
+		B288CEB82982548200BFE884 /* PullRequestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestViewModel.swift; sourceTree = "<group>"; };
+		B288CEBA2982623600BFE884 /* PullRequestViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestViewBuilder.swift; sourceTree = "<group>"; };
+		B288CEBD2982634F00BFE884 /* PullRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestView.swift; sourceTree = "<group>"; };
+		B288CEBF2982666C00BFE884 /* PullRequestRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestRow.swift; sourceTree = "<group>"; };
+		B288CED82982817500BFE884 /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B288CED7298270E400BFE884 /* URLImageStore in Frameworks */,
+				B288CED5298270E400BFE884 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +116,11 @@
 		B288CE81298239C500BFE884 /* NaviSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				B288CEC229826BB100BFE884 /* Utility */,
+				B288CEBC2982633C00BFE884 /* View */,
+				B288CEB72982546300BFE884 /* ViewModel */,
+				B288CEAF29824E2700BFE884 /* GitHubApi */,
+				B288CEAC29823B5A00BFE884 /* Networking */,
 				B288CE82298239C500BFE884 /* NaviSwiftUIApp.swift */,
 				B288CE84298239C500BFE884 /* ContentView.swift */,
 				B288CE86298239C600BFE884 /* Assets.xcassets */,
@@ -127,6 +154,58 @@
 			path = NaviSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		B288CEAC29823B5A00BFE884 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B288CEAD29823C8D00BFE884 /* Parsing.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B288CEAF29824E2700BFE884 /* GitHubApi */ = {
+			isa = PBXGroup;
+			children = (
+				B288CEB029824E4100BFE884 /* Error */,
+				B288CEB329824ED600BFE884 /* GithubApiResponse.swift */,
+				B288CEB529824FF200BFE884 /* PullRequestFetcher.swift */,
+			);
+			path = GitHubApi;
+			sourceTree = "<group>";
+		};
+		B288CEB029824E4100BFE884 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				B288CEB129824E5B00BFE884 /* GithubApiError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		B288CEB72982546300BFE884 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B288CEB82982548200BFE884 /* PullRequestViewModel.swift */,
+				B288CEBA2982623600BFE884 /* PullRequestViewBuilder.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B288CEBC2982633C00BFE884 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B288CEBD2982634F00BFE884 /* PullRequestView.swift */,
+				B288CEBF2982666C00BFE884 /* PullRequestRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B288CEC229826BB100BFE884 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B288CED82982817500BFE884 /* DateUtility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +222,10 @@
 			dependencies = (
 			);
 			name = NaviSwiftUI;
+			packageProductDependencies = (
+				B288CED4298270E400BFE884 /* URLImage */,
+				B288CED6298270E400BFE884 /* URLImageStore */,
+			);
 			productName = NaviSwiftUI;
 			productReference = B288CE7F298239C500BFE884 /* NaviSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +298,9 @@
 				Base,
 			);
 			mainGroup = B288CE76298239C500BFE884;
+			packageReferences = (
+				B288CED3298270E400BFE884 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
 			productRefGroup = B288CE80298239C500BFE884 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B288CEB92982548200BFE884 /* PullRequestViewModel.swift in Sources */,
+				B288CEB629824FF200BFE884 /* PullRequestFetcher.swift in Sources */,
+				B288CED92982817500BFE884 /* DateUtility.swift in Sources */,
 				B288CE85298239C500BFE884 /* ContentView.swift in Sources */,
+				B288CEAE29823C8D00BFE884 /* Parsing.swift in Sources */,
+				B288CEB229824E5B00BFE884 /* GithubApiError.swift in Sources */,
 				B288CE83298239C500BFE884 /* NaviSwiftUIApp.swift in Sources */,
+				B288CEBE2982634F00BFE884 /* PullRequestView.swift in Sources */,
+				B288CEB429824ED600BFE884 /* GithubApiResponse.swift in Sources */,
+				B288CEBB2982623600BFE884 /* PullRequestViewBuilder.swift in Sources */,
+				B288CEC02982666C00BFE884 /* PullRequestRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +678,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B288CED3298270E400BFE884 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B288CED4298270E400BFE884 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B288CED3298270E400BFE884 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		B288CED6298270E400BFE884 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B288CED3298270E400BFE884 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B288CE77298239C500BFE884 /* Project object */;
 }
